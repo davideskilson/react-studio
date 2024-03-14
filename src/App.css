@@ -1,9 +1,31 @@
 /* Add styling for your page here */
 
 .App {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
 }
 
 .BakeryItem {
-  
+  max-width: 300;
+  flex-wrap: wrap;
+}
+
+#bakeItem {
+  max-width: 200;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+img {
+  width: 400px;
+  object-fit: contain;
 }
